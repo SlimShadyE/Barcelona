@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/barcelona"
+    tools:context=".Menu">
+
+    <ImageButton
+        android:id="@+id/teamImg"
+        android:layout_width="143dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/squad1" />
+
+    <ImageButton
+        android:id="@+id/laligaImg"
+        android:layout_width="143dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/campnouImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamImg"
+        app:srcCompat="@drawable/laliga1" />
+
+    <ImageButton
+        android:id="@+id/messiImg"
+        android:layout_width="143dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/teamImg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/messi2" />
+
+    <ImageButton
+        android:id="@+id/campnouImg"
+        android:layout_width="143dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messiImg"
+        app:srcCompat="@drawable/campnou" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyFinalApp</string>
+    <string name="insert_username">username</string>
+    <string name="insert_password">passsword</string>
+    <string name="sign_up">sign up</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="sign_in">Sign In</string>
+</resources>
