@@ -9,16 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".LogoActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TopScorers"/>
+        <activity android:name=".TopScorers" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ShareActivity" />
         <activity android:name=".SignUpR" />
@@ -26,6 +24,7 @@
         <activity android:name=".Team" />
         <activity android:name=".Menu" />
         <activity android:name=".Games" />
+        <activity android:name=".Club"></activity>
     </application>
 
 </manifest>
