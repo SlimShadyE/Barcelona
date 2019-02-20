@@ -24,7 +24,16 @@
         <activity android:name=".Team" />
         <activity android:name=".Menu" />
         <activity android:name=".Games" />
-        <activity android:name=".Club"></activity>
+        <activity android:name=".Club" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".MyIntentService"
+            android:exported="false"></service>
     </application>
 
 </manifest>
