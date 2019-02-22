@@ -88,7 +88,7 @@ public class Menu extends AppCompatActivity implements DialogInterface.OnClickLi
         club.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Games.class);
+                Intent i = new Intent(getApplicationContext(), Club.class);
                 startActivity(i);
             }
         });
