@@ -100,6 +100,8 @@ public class Menu extends AppCompatActivity implements DialogInterface.OnClickLi
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,  System.currentTimeMillis(),
                 1000 * 60 * 60 * 24, pendingIntent);
 
+        Intent intent = new Intent(this, MusicService.class);
+        startService(intent);
 
     }
 }

@@ -20,7 +20,7 @@ public class MusicService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-       mp = MediaPlayer.create(getApplicationContext(), R.raw);
+       mp = MediaPlayer.create(getApplicationContext(), R.raw.barcabarca);
     }
 
     @Override
