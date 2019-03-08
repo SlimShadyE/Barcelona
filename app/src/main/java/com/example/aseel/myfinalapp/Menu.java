@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -15,39 +16,9 @@ import android.content.DialogInterface;
 
 
 public class Menu extends AppCompatActivity implements DialogInterface.OnClickListener {
-
-
-    @Override
-    public void onClick(DialogInterface dialog, int which) {
-        if(which==dialog.BUTTON_POSITIVE);
-
-        {
-            super.onBackPressed();
-            dialog.cancel();
-        }
-        if(which==dialog.BUTTON_NEGATIVE)
-        {
-            dialog.cancel();
-
-        }
-    }
-
-    @Override
-    public void onBackPressed() {
-        AlertDialog.Builder builder=new AlertDialog.Builder(this);
-        builder.setMessage("You'll have to login another time, Are you sure you want to exit?");
-        builder.setCancelable(true);
-        builder.setPositiveButton("yes",this);
-        builder.setNegativeButton("no",this);
-        AlertDialog dialog=builder.create();
-        dialog.show();
-
-
-
-    }
-
     private static final int NOTIFICATION_REMINDER_NIGHT=3;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
@@ -103,5 +74,49 @@ public class Menu extends AppCompatActivity implements DialogInterface.OnClickLi
         Intent intent = new Intent(this, MusicService.class);
         startService(intent);
 
+    }
+
+    @Override
+    public void onClick(DialogInterface dialog, int which) {
+        if(which==dialog.BUTTON_POSITIVE);
+
+        {
+            super.onBackPressed();
+            dialog.cancel();
+        }
+        if(which==dialog.BUTTON_NEGATIVE)
+        {
+            dialog.cancel();
+
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        builder.setMessage("You'll have to login another time, Are you sure you want to exit?");
+        builder.setCancelable(true);
+        builder.setPositiveButton("yes",this);
+        builder.setNegativeButton("no",this);
+        AlertDialog dialog=builder.create();
+        dialog.show();
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId() == R.id.item1){
+            Intent i = new Intent(this, CameraActivity.class);
+            startActivity(i);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
