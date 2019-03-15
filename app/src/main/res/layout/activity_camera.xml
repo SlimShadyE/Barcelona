@@ -26,4 +26,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Camera" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/btName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
 </LinearLayout>

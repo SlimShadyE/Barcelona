@@ -30,8 +30,9 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
 
         imageView=findViewById(R.id.camera);
         btGallery=findViewById(R.id.btGallery);
+        btGallery.setOnClickListener(this);
         btTakePhot=findViewById(R.id.btCamera);
-        btTakePhot.setOnClickListener();
+        btTakePhot.setOnClickListener(this);
 
     }
 
