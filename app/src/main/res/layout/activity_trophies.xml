@@ -35,15 +35,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Trophies"
+            android:text="Trophies+Competitions"
             android:textColor="@android:color/holo_orange_light" />
-
-        <Button
-            android:id="@+id/tv3Comp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Competitions" />
 
     </LinearLayout>
 
