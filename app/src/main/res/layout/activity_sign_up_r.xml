@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue2"
     android:orientation="vertical"
 
     tools:context="com.example.aseel.myfinalapp.SignUpR">
@@ -12,7 +13,7 @@
         android:id="@+id/SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/sign_up"
+        android:text="Sign Up"
         android:textAlignment="center"
         android:textSize="35sp" />
 
@@ -22,7 +23,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <EditText
@@ -31,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/first_name"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white" />
 
         <EditText
             android:id="@+id/lastName"
@@ -39,13 +41,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/last_name"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="64dp" />
 
     <EditText
         android:id="@+id/Gmail"
@@ -53,11 +52,8 @@
         android:layout_height="wrap_content"
         android:hint="Gmail"
         android:inputType="textPersonName"
+        android:textColor="@android:color/white"
         android:textSize="18dp" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="16dp" />
 
     <EditText
         android:id="@+id/Password"
@@ -66,16 +62,21 @@
         android:layout_weight="1"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="@android:color/white" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="64dp" />
+        android:layout_height="40dp" />
 
     <Button
         android:id="@+id/Done"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Done" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
 
 </LinearLayout>

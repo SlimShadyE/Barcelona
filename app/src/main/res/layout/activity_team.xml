@@ -5,6 +5,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/blue2"
     android:orientation="vertical"
     tools:context="com.example.aseel.myfinalapp.Team">
 
@@ -17,7 +18,8 @@
             android:id="@+id/nameP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="  Name" />
+            android:text="  Name"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -28,7 +30,8 @@
             android:id="@+id/position"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="  Position" />
+            android:text="  Position"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -40,7 +43,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="   Picture" />
+            android:text="   Picture"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 

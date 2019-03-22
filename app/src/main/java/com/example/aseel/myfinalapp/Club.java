@@ -15,7 +15,6 @@ public class Club extends AppCompatActivity {
         Button tvBack= (Button) findViewById(R.id.tvBack);
         Button tvDef= (Button) findViewById(R.id.tvDef);
         Button tvTro= (Button) findViewById(R.id.tvTro);
-        Button tv3Comp= (Button) findViewById(R.id.tv3Comp);
 
         tvBack.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -15,7 +15,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:padding="10dp"
-            android:text="Barca" />
+            android:text="Barca"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -27,7 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:padding="10dp"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"

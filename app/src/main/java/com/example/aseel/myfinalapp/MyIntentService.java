@@ -38,7 +38,7 @@ public class MyIntentService extends IntentService {
         builder.setContentTitle("Barca Fan Page");
         builder.setContentText("This is the Body");
         builder.setSmallIcon(R.drawable.barcaicon);
-        Intent notifyIntent = new Intent(this, MainActivity.class);
+        Intent notifyIntent = new Intent(this, Menu.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 2, notifyIntent, PendingIntent.FLAG_UPDATE_CURRENT);
         //to be able to launch your activity from the notification
         builder.setContentIntent(pendingIntent);

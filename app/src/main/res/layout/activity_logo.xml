@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/blue2"
     tools:context="com.example.aseel.myfinalapp.LogoActivity">
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="TODO"
         app:srcCompat="@drawable/logo" />

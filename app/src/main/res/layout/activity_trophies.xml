@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/blue2"
     tools:context=".TrophiesActivity">
 
     <Space
@@ -97,6 +98,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="La Liga (La Liga Santander for sponsorship reasons with Santander), is the men's top professional football division of the Spanish football league system.  Administered by the Liga Nacional de Fútbol Profesional (English: National Professional Football League), also known as the Liga de Fútbol Profesional (LFP), La Liga is contested by 20 teams, with the three lowest-placed teams relegated to the Segunda División and replaced by the top three teams in that division." />
+        android:text="La Liga (La Liga Santander for sponsorship reasons with Santander), is the men's top professional football division of the Spanish football league system.  Administered by the Liga Nacional de Fútbol Profesional (English: National Professional Football League), also known as the Liga de Fútbol Profesional (LFP), La Liga is contested by 20 teams, with the three lowest-placed teams relegated to the Segunda División and replaced by the top three teams in that division."
+        android:textColor="@android:color/white" />
 
 </LinearLayout>

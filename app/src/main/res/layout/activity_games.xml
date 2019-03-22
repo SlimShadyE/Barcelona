@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/blue2"
     tools:context=".Games">
 
     <LinearLayout
@@ -17,21 +18,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="  Date" />
+            android:text="  Date"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/vrs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="  Against" />
+            android:text="  Against"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/pic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="   picture" />
+            android:text="   Picture"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 

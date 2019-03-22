@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/blue2"
     android:orientation="vertical">
 
     <LinearLayout
@@ -14,7 +15,8 @@
             android:id="@+id/tvRank"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rank" />
+            android:text="Rank"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -26,7 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Name" />
+            android:text="Name"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -38,7 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="appearance" />
+            android:text="appearance"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -50,7 +54,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Minutes" />
+            android:text="Minutes"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -62,7 +67,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="G/M" />
+            android:text="G/M"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"
@@ -74,7 +80,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Goals" />
+            android:text="Goals"
+            android:textColor="@android:color/white" />
 
         <Space
             android:layout_width="wrap_content"

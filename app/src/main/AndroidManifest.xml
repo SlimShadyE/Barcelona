@@ -20,7 +20,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".TopScorers" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".ShareActivity" />
         <activity android:name=".SignUpR" />
         <activity android:name=".SignInAactivity" />
@@ -44,6 +43,7 @@
 
         <activity android:name=".TrophiesActivity" />
         <activity android:name=".CameraActivity" />
+        <activity android:name=".UclActivity"></activity>
     </application>
 
 </manifest>

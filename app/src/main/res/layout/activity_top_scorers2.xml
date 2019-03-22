@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/blue2"
     tools:context=".TopScorers2">
 
     <LinearLayout
@@ -17,21 +18,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Rank/Name" />
+            android:text="Rank/Name"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/goals"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Goals" />
+            android:text="Goals"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/picture"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Picture" />
+            android:text="Picture"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
